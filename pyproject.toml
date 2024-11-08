@@ -42,21 +42,3 @@ Repository = "https://github.com/denshoproject/densho-wagtail-notes"
 
 [build-system]
 requires = []
-build-backend = "flit_core.buildapi"
-
-[tool.flit.module]
-name = "wagtail_notes"
-
-[tool.flit.sdist]
-exclude = [
-    "tests",
-    "Makefile",
-    "docs",
-    ".*",
-    "*.json",
-    "*.ini",
-    "*.yml",
-    "CHANGELOG.md",
-    "ruff.toml",
-    "testmanage.py",
-]
