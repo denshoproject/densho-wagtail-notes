@@ -31,6 +31,7 @@ requires-python = ">=3.11"
 dependencies = [
     "Wagtail>=6.0",
     "Django>=5.0",
+    "beautifulsoup4>=4.12.3",
 ]
 
 [project.optional-dependencies]
